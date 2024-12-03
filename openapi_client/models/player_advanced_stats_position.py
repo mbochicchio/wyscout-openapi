@@ -17,8 +17,8 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, StrictInt
-from typing import Any, ClassVar, Dict, List, Optional
+from pydantic import BaseModel, ConfigDict, StrictFloat, StrictInt
+from typing import Any, ClassVar, Dict, List, Optional, Union
 from openapi_client.models.position_of_the_player import PositionOfThePlayer
 from typing import Optional, Set
 from typing_extensions import Self
@@ -27,7 +27,7 @@ class PlayerAdvancedStatsPosition(BaseModel):
     """
     PlayerAdvancedStatsPosition
     """ # noqa: E501
-    percent: Optional[StrictInt] = None
+    percent: Optional[Union[StrictFloat, StrictInt]] = None
     position: Optional[PositionOfThePlayer] = None
     __properties: ClassVar[List[str]] = ["percent", "position"]
 

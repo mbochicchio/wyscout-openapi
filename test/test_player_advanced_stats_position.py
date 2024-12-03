@@ -35,7 +35,7 @@ class TestPlayerAdvancedStatsPosition(unittest.TestCase):
         model = PlayerAdvancedStatsPosition()
         if include_optional:
             return PlayerAdvancedStatsPosition(
-                percent = 56,
+                percent = 1.337,
                 position = openapi_client.models.position_of_the_player.Position of the player(
                     code = '', 
                     name = '', )

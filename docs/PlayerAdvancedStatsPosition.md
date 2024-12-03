@@ -5,7 +5,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**percent** | **int** |  | [optional] 
+**percent** | **float** |  | [optional] 
 **position** | [**PositionOfThePlayer**](PositionOfThePlayer.md) |  | [optional] 
 
 ## Example

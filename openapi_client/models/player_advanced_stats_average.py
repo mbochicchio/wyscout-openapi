@@ -112,7 +112,7 @@ class PlayerAdvancedStatsAverage(BaseModel):
     successful_forward_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulForwardPasses")
     successful_goal_kicks: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulGoalKicks")
     successful_key_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulKeyPasses")
-    successful_lateral_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulLateralPasses")
+    successful_lateral_passes: Optional[StrictInt] = Field(default=None, alias="successfulLateralPasses")
     successful_linkup_plays: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulLinkupPlays")
     successful_long_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulLongPasses")
     successful_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulPasses")
