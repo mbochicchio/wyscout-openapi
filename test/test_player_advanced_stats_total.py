@@ -138,7 +138,7 @@ class TestPlayerAdvancedStatsTotal(unittest.TestCase):
                 successful_sliding_tackles = 1.337,
                 successful_smart_passes = 1.337,
                 successful_through_passes = 1.337,
-                successful_vertical_passes = openapi_client.models.successful_vertical_passes.Successful vertical passes(),
+                successful_vertical_passes = 1.337,
                 third_assists = 1.337,
                 through_passes = 1.337,
                 touch_in_box = 1.337,

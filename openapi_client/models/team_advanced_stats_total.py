@@ -115,7 +115,7 @@ class TeamAdvancedStatsTotal(BaseModel):
     successful_penalties: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulPenalties")
     successful_smart_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulSmartPasses")
     successful_through_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, alias="successfulThroughPasses")
-    successful_vertical_passes: Optional[Dict[str, Any]] = Field(default=None, description="<i>Deprecated<i>, same value as successfulLateralPasses", alias="successfulVerticalPasses")
+    successful_vertical_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, description="<i>Deprecated<i>, same value as successfulLateralPasses", alias="successfulVerticalPasses")
     through_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, description="A pass played into the space behind the defensive line for a teammate to contest", alias="throughPasses")
     touch_in_box: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, description="An action (a Pass or a Touch) that happens in the opponent penalty area. Duels are excluded from this definition", alias="touchInBox")
     vertical_passes: Optional[Union[StrictFloat, StrictInt]] = Field(default=None, description="<i>Deprecated<i>, same value as lateralPasses", alias="verticalPasses")

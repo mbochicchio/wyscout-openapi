@@ -94,7 +94,7 @@ Name | Type | Description | Notes
 **successful_penalties** | **float** |  | [optional] 
 **successful_smart_passes** | **float** |  | [optional] 
 **successful_through_passes** | **float** |  | [optional] 
-**successful_vertical_passes** | **object** | &lt;i&gt;Deprecated&lt;i&gt;, same value as successfulLateralPasses | [optional] 
+**successful_vertical_passes** | **float** | &lt;i&gt;Deprecated&lt;i&gt;, same value as successfulLateralPasses | [optional] 
 **through_passes** | **float** | A pass played into the space behind the defensive line for a teammate to contest | [optional] 
 **touch_in_box** | **float** | An action (a Pass or a Touch) that happens in the opponent penalty area. Duels are excluded from this definition | [optional] 
 **vertical_passes** | **float** | &lt;i&gt;Deprecated&lt;i&gt;, same value as lateralPasses | [optional] 

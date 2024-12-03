@@ -18533,7 +18533,7 @@ components:
         successfulVerticalPasses:
           description: '<i>Deprecated<i>, same value as successfulLateralPasses'
           title: Successful vertical passes
-          type: object
+          type: number
         thirdAssists:
           description: >-
             The last action of a player from the goalscoring team, prior to a
@@ -33305,7 +33305,7 @@ components:
         successfulVerticalPasses:
           description: '<i>Deprecated<i>, same value as successfulLateralPasses'
           title: Successful vertical passes
-          type: object
+          type: number
         throughPasses:
           description: >-
             A pass played into the space behind the defensive line for a
