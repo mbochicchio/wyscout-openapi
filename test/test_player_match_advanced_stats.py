@@ -122,7 +122,7 @@ class TestPlayerMatchAdvancedStats(unittest.TestCase):
                     successful_forward_passes = 1.337, 
                     successful_goal_kicks = 1.337, 
                     successful_key_passes = 1.337, 
-                    successful_lateral_passes = 56, 
+                    successful_lateral_passes = 1.337, 
                     successful_linkup_plays = 1.337, 
                     successful_long_passes = 1.337, 
                     successful_passes = 1.337, 

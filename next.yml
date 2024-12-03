@@ -17844,7 +17844,7 @@ components:
           type: number
         successfulLateralPasses:
           title: Successful lateral passes
-          type: integer
+          type: number
         successfulLinkupPlays:
           title: Successful linkup plays
           type: number
@@ -32506,10 +32506,10 @@ components:
           type: number
         fieldAerialDuels:
           title: Field aerial duels
-          type: integer
+          type: number
         fieldAerialDuelsWon:
           title: Field aerial duels won
-          type: integer
+          type: number
         forwardPasses:
           description: An attempt to pass the ball forward to a teammate
           title: Forward passes
@@ -32534,15 +32534,15 @@ components:
             When two or more players from opposing teams jump to compete for the
             ball, <i>Only Goalkeeper</i>
           title: Gk aerial duels
-          type: integer
+          type: number
         gkAerialDuelsWon:
           description: <i>Only Goalkeeper</i>
           title: Gk aerial duels won
-          type: integer
+          type: number
         gkExits:
           description: <i>Only Goalkeeper</i>
           title: Gk exits
-          type: integer
+          type: number
         gkGoalKicks:
           description: >-
             A goal kick according to law 16 of the IFAB Laws of the Game,
@@ -32557,11 +32557,11 @@ components:
             A successful attempt from the goalkeeper to prevent a shot from
             being scored, <i>Only Goalkeeper</i>
           title: Gk saves
-          type: integer
+          type: number
         gkSuccessfulExits:
           description: <i>Only Goalkeeper</i>
           title: Gk successful exits
-          type: integer
+          type: number
         goals:
           description: A goal scored as specified in law 10.1 of the IFAB Laws of the Game
           title: Goals
@@ -32589,7 +32589,7 @@ components:
             Passes in two 90° angles rotated by 45° facing sideways, longer than
             12 meters
           title: Lateral passes
-          type: integer
+          type: number
         linkupPlays:
           description: >-
             An action of an attacking player receiving a ball from a defender or
@@ -32623,16 +32623,16 @@ components:
           type: number
         newDefensiveDuelsWon:
           title: New defensive duels won
-          type: integer
+          type: number
         newDuelsWon:
           title: New duels won
-          type: integer
+          type: number
         newOffensiveDuelsWon:
           title: New offensive duels won
-          type: integer
+          type: number
         newSuccessfulDribbles:
           title: New successful dribbles
-          type: integer
+          type: number
         offensiveDuels:
           description: A ground Duel for the player in possession of the ball
           title: Offensive duels
@@ -32747,7 +32747,7 @@ components:
           type: number
         successfulLateralPasses:
           title: Successful lateral passes
-          type: integer
+          type: number
         successfulLinkupPlays:
           title: Successful linkup plays
           type: number
@@ -32810,7 +32810,7 @@ components:
       properties:
         aerialDuelsWon:
           title: Aerial duels won
-          type: integer
+          type: number
         defensiveDuelsWon:
           title: Defensive duels won
           type: number
@@ -32822,47 +32822,47 @@ components:
           type: number
         fieldAerialDuelsWon:
           title: Field aerial duels won
-          type: integer
+          type: number
         gkAerialDuelsWon:
           description: <i>Only Goalkeeper</i>
           title: Gk aerial duels won
-          type: integer
+          type: number
         gkSaves:
           description: >-
             A successful attempt from the goalkeeper to prevent a shot from
             being scored, <i>Only Goalkeeper</i>
           title: Gk saves
-          type: integer
+          type: number
         gkSuccessfulExits:
           description: <i>Only Goalkeeper</i>
           title: Gk successful exits
-          type: integer
+          type: number
         goalConversion:
           description: Shots converted into a goal
           title: Goal conversion
           type: number
         headShotsOnTarget:
           title: Head shots on target
-          type: integer
+          type: number
         newDefensiveDuelsWon:
           title: New defensive duels won
-          type: integer
+          type: number
         newDuelsWon:
           title: New duels won
-          type: integer
+          type: number
         newOffensiveDuelsWon:
           title: New offensive duels won
-          type: integer
+          type: number
         newSuccessfulDribbles:
           title: New successful dribbles
-          type: integer
+          type: number
         offensiveDuelsWon:
           title: 'Offensive duels won '
           type: number
         penaltiesConversion:
           description: Penalties converted into a goal
           title: Penalties conversion
-          type: integer
+          type: number
         shotsOnTarget:
           title: Shots on target
           type: number
@@ -32883,7 +32883,7 @@ components:
           type: number
         successfulLateralPasses:
           title: Successful lateral passes
-          type: integer
+          type: number
         successfulLinkupPlays:
           title: Successful linkup plays
           type: number
@@ -32898,7 +32898,7 @@ components:
           type: number
         successfulShotAssists:
           title: Successful shot assists
-          type: integer
+          type: number
         successfulSmartPasses:
           title: Successful smart passes
           type: number
@@ -32917,7 +32917,7 @@ components:
           type: number
         yellowCardsPerFoul:
           title: Yellow cards per foul
-          type: integer
+          type: number
       title: 'List of statistics, percentages'
       type: object
     TeamAdvancedStatsTotal:
@@ -32925,271 +32925,271 @@ components:
         accelerations:
           description: A run with the ball with a significant speed up
           title: Accelerations done
-          type: integer
+          type: number
         aerialDuels:
           description: >-
             When two or more players from opposing teams jump to compete for the
             ball
           title: Aerial duels
-          type: integer
+          type: number
         aerialDuelsWon:
           title: Aerial duels won
-          type: integer
+          type: number
         assists:
           description: >-
             The last action of a player from the goalscoring team, prior to the
             Goal being scored by a teammate, or an Own goal
           title: Assists
-          type: integer
+          type: number
         attackingActions:
           title: Attacking actions
-          type: integer
+          type: number
         backPasses:
           description: An attempt to pass the ball back to a teammate
           title: Back passes
-          type: integer
+          type: number
         cleanSheets:
           description: Matches with no goals conceded
           title: Clean sheets
-          type: integer
+          type: number
         concededGoals:
           description: >-
             A goal scored by an opponent as specified in law 10.1 of the IFAB
             Laws of the Game.
           title: Goals conceded
-          type: integer
+          type: number
         corners:
           description: A corner kick served as specified in law 17 IFAB Laws of the Game
           title: Corners
-          type: integer
+          type: number
         crosses:
           description: >-
             A ball played from the offensive flanks aimed towards a teammate in
             the area in front of the opponent’s goal
           title: Crosses
-          type: integer
+          type: number
         dangerousOpponentHalfRecoveries:
           description: >-
             Ball’s recoveries in the opponent half that lead to a shot within
             20s
           title: Dangerous ball’s recoveries in the opponent half
-          type: integer
+          type: number
         dangerousOwnHalfLosses:
           description: Ball’s losses in his own half that lead to a shot within 20s
           title: Dangerous ball’s losses in his own half
-          type: integer
+          type: number
         defensiveActions:
           description: >-
             An act of player actively intercepting the ball by anticipating its
             movement when the opponent is shooting, passing or crossing
           title: Defensive actions
-          type: integer
+          type: number
         defensiveDuels:
           description: >-
             When a player attempts to dispossess an opposition player to stop an
             attack progressing
           title: Defensive duels
-          type: integer
+          type: number
         defensiveDuelsWon:
           title: Defensive duels won
-          type: integer
+          type: number
         directFreeKicks:
           title: Direct free kicks
-          type: integer
+          type: number
         directFreeKicksOnTarget:
           title: Direct free kicks on target
-          type: integer
+          type: number
         directRedCards:
           description: >-
             Disciplinary action by the referee that is indicated by showing a
             red card according to law 12.3 of the IFAB Laws of the Game
           title: 'Red cards received, only direct red'
-          type: integer
+          type: number
         dribbles:
           description: >-
             An attempt to move past an opposing player whilst trying to maintain
             possession of the ball
           title: Dribbles
-          type: integer
+          type: number
         duels:
           description: >-
             A challenge between two players to gain control of the ball,
             progress with the ball or change its direction
           title: Duels
-          type: integer
+          type: number
         duelsWon:
           title: Duels won
-          type: integer
+          type: number
         fieldAerialDuels:
           title: Field aerial duels
-          type: integer
+          type: number
         fieldAerialDuelsWon:
           title: Field aerial duels won
-          type: integer
+          type: number
         forwardPasses:
           description: An attempt to pass the ball forward to a teammate
           title: Forward passes
-          type: integer
+          type: number
         fouls:
           description: >-
             An offence committed by a player according to law 12 (1, 3) of the
             IFAB Laws of the Game
           title: Fouls
-          type: integer
+          type: number
         freeKicks:
           description: >-
             The execution of a free kick according to law 13 of the IFAB Laws of
             the Game
           title: Free kicks
-          type: integer
+          type: number
         freeKicksOnTarget:
           title: Free kicks on target
-          type: integer
+          type: number
         gkAerialDuels:
           description: >-
             When two or more players from opposing teams jump to compete for the
             ball, <i>Only Goalkeeper</i>
           title: Gk aerial duels
-          type: integer
+          type: number
         gkAerialDuelsWon:
           description: <i>Only Goalkeeper</i>
           title: Gk aerial duels won
-          type: integer
+          type: number
         gkExits:
           description: <i>Only Goalkeeper</i>
           title: Gk exits
-          type: integer
+          type: number
         gkGoalKicks:
           description: A goal kick according to law 16 of the IFAB Laws of the Game
           title: Gk goal kicks
-          type: integer
+          type: number
         gkGoalKicksSuccess:
           title: Gk goal kicks success
-          type: integer
+          type: number
         gkSaves:
           description: >-
             A successful attempt from the goalkeeper to prevent a shot from
             being scored, <i>Only Goalkeeper</i>
           title: Gk saves
-          type: integer
+          type: number
         gkSuccessfulExits:
           description: <i>Only Goalkeeper</i>
           title: Gk successful exits
-          type: integer
+          type: number
         goals:
           description: A goal scored as specified in law 10.1 of the IFAB Laws of the Game
           title: Goals scored
-          type: integer
+          type: number
         headShots:
           description: >-
             An attempt towards the opposition's goal with the intention of
             scoring
           title: Head shots
-          type: integer
+          type: number
         interceptions:
           description: >-
             An act of player actively intercepting the ball by anticipating its
             movement when the opponent is shooting, passing or crossing
           title: Interceptions
-          type: integer
+          type: number
         keyPasses:
           description: >-
             A pass that immediately creates a clear goal scoring opportunity for
             a teammate who in turn fails to score
           title: Key passes
-          type: integer
+          type: number
         lateralPasses:
           description: >-
             Passes in two 90° angles rotated by 45° facing sideways, longer than
             12 meters
           title: Lateral passes
-          type: integer
+          type: number
         linkupPlays:
           description: >-
             An action of an attacking player receiving a ball from a defender or
             a midfielder with his back to the opposite goal
           title: Linkup plays
-          type: integer
+          type: number
         longGoalKicks:
           title: Long goal kicks
-          type: integer
+          type: number
         longPasses:
           description: >-
             A ground pass longer than 45 meters or a high pass longer than 25
             meters
           title: Long passes
-          type: integer
+          type: number
         looseBallDuels:
           description: 'A duel for a loose ball, when no team has clear ball possession'
           title: Loose ball duels
-          type: integer
+          type: number
         looseBallDuelsWon:
           title: Loose ball duels won
-          type: integer
+          type: number
         losses:
           description: Any Action that ends a Possession of the current team
           title: Ball’s losses
-          type: integer
+          type: number
         matches:
           title: Matches played
-          type: integer
+          type: number
         matchesTagged:
           title: Tagged matches
-          type: integer
+          type: number
         missedBalls:
           description: >-
             Missed ball is a type of Touch when the player is trying to control
             the ball, but can’t reach it
           title: Balls missed
-          type: integer
+          type: number
         newDefensiveDuelsWon:
           title: New defensive duels won
-          type: integer
+          type: number
         newDuelsWon:
           title: New duels won
-          type: integer
+          type: number
         newOffensiveDuelsWon:
           title: New offensive duels won
-          type: integer
+          type: number
         newSuccessfulDribbles:
           title: New successful dribbles
-          type: integer
+          type: number
         offensiveDuels:
           description: A ground Duel for the player in possession of the ball
           title: Offensive duels
-          type: integer
+          type: number
         offensiveDuelsWon:
           title: Offensive duels won
-          type: integer
+          type: number
         offsides:
           description: An offside as described in the law 11 of the IFAB Laws of the Game
           title: Offsides
-          type: integer
+          type: number
         opponentHalfRecoveries:
           title: Ball’s recoveries in the opponent half
-          type: integer
+          type: number
         opponentOffsides:
           title: Opponent offsides
-          type: integer
+          type: number
         ownHalfLosses:
           title: Ball’s losses in his own half
-          type: integer
+          type: number
         passes:
           description: An attempt to pass the ball to a teammate
           title: Passes
-          type: integer
+          type: number
         passesToFinalThird:
           description: >-
             Any pass that originates outside of the final third and the next
             ball touch occurs within the final third
           title: Passes to final third of the field
-          type: integer
+          type: number
         penalties:
           description: >-
             A shot from a penalty kick as specified in law 14 of the IFAB Laws
             of the Game
           title: Penalties
-          type: integer
+          type: number
         ppda:
           description: >-
             A metric to quantify high press intensity introduced by Colin
@@ -33201,107 +33201,107 @@ components:
             When a player moves to apply pressure on an opposing player who is
             in possession of the ball but doesn't make physical or ball contact
           title: Pressing duels
-          type: integer
+          type: number
         pressingDuelsWon:
           title: Pressing duels won
-          type: integer
+          type: number
         progressiveRun:
           description: >-
             A continuous ball control by one player attempting to draw the team
             significantly closer to the opponent goal
           title: Progressive runs
-          type: integer
+          type: number
         receivedPass:
           title: Received Passes
-          type: integer
+          type: number
         recoveries:
           description: >-
             Any Action that ends a Possession of the opposition team (the last
             action of this possession is a Loss) and starts a Possession for
             current team
           title: Ball’s recoveries
-          type: integer
+          type: number
         redCards:
           description: >-
             Disciplinary action by the referee that is indicated by showing a
             red card according to law 12.3 of the IFAB Laws of the Game
           title: 'Red cards received, double yellow included'
-          type: integer
+          type: number
         shortGoalKicks:
           title: Short goal kicks
-          type: integer
+          type: number
         shotAssists:
           description: The last action of a player prior to a teammate having a Shot
           title: Shot assists
-          type: integer
+          type: number
         shotOnTargetAssists:
           description: >-
             The last action of a player prior to a teammate having a Shot on
             target
           title: Shot on target assists
-          type: integer
+          type: number
         shots:
           description: >-
             An attempt towards the opposition's goal with the intention of
             scoring
           title: Shots
-          type: integer
+          type: number
         shotsAgainst:
           description: A shot on target faced by the goalkeeper
           title: Shots against
-          type: integer
+          type: number
         smartPasses:
           description: >-
             A creative and penetrative pass that attempts to break the
             opposition's defensive lines to gain a significant advantage in
             attack
           title: Smart passes
-          type: integer
+          type: number
         successfulAttackingActions:
           title: Successful attacking actions
-          type: integer
+          type: number
         successfulBackPasses:
           title: Successful back passes
-          type: integer
+          type: number
         successfulCrosses:
           title: Successful crosses
-          type: integer
+          type: number
         successfulDefensiveAction:
           title: Successful defensive actions
-          type: integer
+          type: number
         successfulDribbles:
           title: Successful dribbles
-          type: integer
+          type: number
         successfulForwardPasses:
           title: Successful forward passes
-          type: integer
+          type: number
         successfulKeyPasses:
           title: Successful key passes
-          type: integer
+          type: number
         successfulLateralPasses:
           title: Successful lateral passes
-          type: integer
+          type: number
         successfulLinkupPlays:
           title: Successful linkup plays
-          type: integer
+          type: number
         successfulLongPasses:
           title: Successful long passes
-          type: integer
+          type: number
         successfulPasses:
           title: Successful passes
-          type: integer
+          type: number
         successfulPassesToFinalThird:
           title: Successful passes to final third of the field
-          type: integer
+          type: number
         successfulPenalties:
           title: Successful penalties
-          type: integer
+          type: number
         successfulSmartPasses:
           title: Successful smart passes
-          type: integer
+          type: number
         successfulThroughPasses:
           title: Successful through passes
-          type: integer
+          type: number
         successfulVerticalPasses:
           description: '<i>Deprecated<i>, same value as successfulLateralPasses'
           title: Successful vertical passes
@@ -33311,17 +33311,17 @@ components:
             A pass played into the space behind the defensive line for a
             teammate to contest
           title: Through passes
-          type: integer
+          type: number
         touchInBox:
           description: >-
             An action (a Pass or a Touch) that happens in the opponent penalty
             area. Duels are excluded from this definition
           title: Touches In box
-          type: integer
+          type: number
         verticalPasses:
           description: '<i>Deprecated<i>, same value as lateralPasses'
           title: Vertical passes
-          type: integer
+          type: number
         xgShot:
           description: >-
             Expected goals (xG) is a predictive ML model used to assess the
@@ -33339,7 +33339,7 @@ components:
             Disciplinary action by the referee that is indicated by showing a
             yellow card according to law 12.3 of the IFAB Laws of the Game
           title: Yellow cards received
-          type: integer
+          type: number
       title: 'List of statistics, total numbers'
       type: object
     TeamCareer:

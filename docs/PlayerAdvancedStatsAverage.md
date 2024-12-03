@@ -91,7 +91,7 @@ Name | Type | Description | Notes
 **successful_forward_passes** | **float** |  | [optional] 
 **successful_goal_kicks** | **float** |  | [optional] 
 **successful_key_passes** | **float** |  | [optional] 
-**successful_lateral_passes** | **int** |  | [optional] 
+**successful_lateral_passes** | **float** |  | [optional] 
 **successful_linkup_plays** | **float** |  | [optional] 
 **successful_long_passes** | **float** |  | [optional] 
 **successful_passes** | **float** |  | [optional] 
